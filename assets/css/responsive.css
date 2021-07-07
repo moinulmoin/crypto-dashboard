@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px){
+    .icon-details {
+        display: none;
+    }
+    .sidebar {
+        padding-left: 2rem;
+    }
+    .main .header {
+       height: auto; 
+    }
+    main .space-between {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pool-name {
+        margin-right: 0;
+    }
+    .pool-stats li {
+        margin-right: 0;
+    }
+    main .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .coin-group .wrapper-2 {
+        align-items: flex-start;
+    }
+    .coin {
+        margin-bottom: 30px;
+    }
+    .last-coin {
+        margin-top: 0;
+    }
+    .pool-stats {
+        margin-top: 2rem;
+    }
+    .pool-stats li {
+        margin-bottom: 2rem;
+    }
+    .state-text {
+        text-align: center;
+    }
+    .box:first-child {
+        margin-bottom: 1rem;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .box:first-child button {
+        
+        align-self: center;
+        margin-top: 1rem;
+    }
+    .filter .btn-grp {
+        margin-bottom: 2rem;
+    }
+}

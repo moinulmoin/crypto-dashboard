@@ -41,6 +41,7 @@ button {
 
 .wrapper {
     max-width: 128rem;
+    min-width: 50rem;
     margin: 0 auto;
 }
 
@@ -110,8 +111,8 @@ Main
 .sidebar {
     background-color: var(--primary-color);
     border-right: 1px solid #4D4D4D;
-    padding: 58px 29px 0;
     width: 19%;
+    padding: 58px 29px 0;
 }
 
 .menu-icons {
@@ -383,4 +384,19 @@ Main
 }
 .main{
     margin-bottom: 72px;
+}
+
+.change .sidebar{
+    width: 77px;
+    padding: 0;
+}
+
+.change .main{
+    width: calc(100% - 77px);
+}
+
+.change .sidebar-wrapper {
+    margin: 55px auto 0;
+    width: 80%;
+    text-align: left;
 }
